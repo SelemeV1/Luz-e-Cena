@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import FooterDesenvolvimento from "./FooterDesenvolvimento";
 import FooterInfo from "./FooterInfo";
-import Footerlogo from "./FooterLogo";
+import FooterLogo from "./FooterLogo";
 import FooterRede from "./FooterRede";
 import FooterSobre from "./FooterSobre";
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <footer className={styles.rodape}>
         <div className={styles.rodape_informacoes}>
-          <Footerlogo />
+          <FooterLogo />
           <FooterInfo />
           <FooterSobre />
           <FooterRede />
